@@ -1,0 +1,150 @@
+.header {
+    height: 73px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: none;
+    background-color: white;
+}
+.left {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+}
+.middle {
+  
+    flex: 6;
+    margin-left: 0px;
+    max-width: 900px;
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+}
+.right {
+    flex-shrink: 1;
+    
+    margin-left: 10px;
+   flex: 3;
+    flex-direction: column;
+}
+.post-box {
+    width: 23px;
+    height: 23px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+
+}
+.phone {
+    width: 23px;
+    height: 23px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.mail {
+    width: 23px;
+    height: 23px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+.icons1 {
+margin-top: -1px;
+margin-left: -6px;
+height: 20px;
+width: 20px;
+display: inline-block;
+}
+
+.icons3 {
+    display: inline-block;
+}
+.txt1 {
+    margin: 0px;
+display: inline;
+
+}
+.txt2 {
+    display: inline;
+    margin-bottom: 70px;
+    margin-top: -2px;
+}
+body {
+    margin: 0;
+    padding-top: 60px;
+    padding-left: 60px;
+    background-color: rgb(248, 248, 248);
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 73px;
+    background-color: rgb(253, 253, 253);
+    width: 79px;
+
+}
+.searchbar {
+    width: 600px;
+    border-radius: 100px;
+    height: 40px;
+    border-color: rgb(130, 236, 144);
+    border: none;
+    border-width: 6px;
+    font-size: 18px;
+    margin-left: 10px;
+    padding-left: 15px;
+    box-shadow: 2px 2px 10px rgba(88, 245, 109, 0.5);
+}
+
+
+.sidebar-link {
+    
+    height: 80px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: rgb(255, 255, 255)
+}
+.sidebar-link:hover {
+    background-color: rgb(255, 255, 255)
+}
+.icons:hover {
+    background-color: rgb(255, 255, 255)
+}
+.ya1 {
+    width: 200px;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(6, 90, 17);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.ya0 {
+    margin-left: 20px;
+}
+.icons {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.button {
+    margin-left: 15px;
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
